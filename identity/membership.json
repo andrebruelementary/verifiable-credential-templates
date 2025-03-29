@@ -1,0 +1,51 @@
+{
+    "id": "membership",
+    "name": "Community Membership",
+    "description": "A verifiable credential representing membership in an organization or community",
+    "properties": [
+        {
+            "id": "memberName",
+            "label": "Member Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "organizationName",
+            "label": "Organization Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "membershipType",
+            "label": "Membership Type",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "membershipId",
+            "label": "Membership ID",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "joinDate",
+            "label": "Join Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "expirationDate",
+            "label": "Expiration Date",
+            "type": "date",
+            "required": false
+        },
+        {
+            "id": "membershipStatus",
+            "label": "Status",
+            "type": "text",
+            "required": true
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "employment-verification",
+    "name": "Employment Verification",
+    "description": "A verifiable credential confirming current or past employment",
+    "properties": [
+        {
+            "id": "employeeName",
+            "label": "Employee Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "employerName",
+            "label": "Employer Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "jobTitle",
+            "label": "Job Title",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "startDate",
+            "label": "Start Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "endDate",
+            "label": "End Date",
+            "type": "date",
+            "required": false
+        },
+        {
+            "id": "employmentStatus",
+            "label": "Employment Status",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "department",
+            "label": "Department",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}

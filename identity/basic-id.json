@@ -1,0 +1,51 @@
+{
+    "id": "basic-id",
+    "name": "Basic Identity Verification",
+    "description": "A verifiable credential confirming basic identity information",
+    "properties": [
+        {
+            "id": "givenName",
+            "label": "Given Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "familyName",
+            "label": "Family Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "dateOfBirth",
+            "label": "Date of Birth",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "nationality",
+            "label": "Nationality",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "idNumber",
+            "label": "ID Number",
+            "type": "text",
+            "required": false
+        },
+        {
+            "id": "issuingCountry",
+            "label": "Issuing Country",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "photo",
+            "label": "Photo Hash",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}

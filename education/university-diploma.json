@@ -1,0 +1,51 @@
+{
+    "id": "university-diploma",
+    "name": "University Diploma",
+    "description": "A verifiable credential representing a university degree or diploma",
+    "properties": [
+        {
+            "id": "studentName",
+            "label": "Student Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "degreeName",
+            "label": "Degree Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "institution",
+            "label": "Institution",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "graduationDate",
+            "label": "Graduation Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "degreeLevel",
+            "label": "Degree Level",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "major",
+            "label": "Field of Study",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "gpa",
+            "label": "GPA",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}

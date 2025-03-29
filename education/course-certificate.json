@@ -1,0 +1,51 @@
+{
+    "id": "course-certificate",
+    "name": "Course Completion Certificate",
+    "description": "A verifiable credential for completing a course or training program",
+    "properties": [
+        {
+            "id": "recipientName",
+            "label": "Recipient Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "courseName",
+            "label": "Course Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "issuer",
+            "label": "Issuing Organization",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "completionDate",
+            "label": "Completion Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "duration",
+            "label": "Course Duration",
+            "type": "text",
+            "required": false
+        },
+        {
+            "id": "grade",
+            "label": "Grade/Score",
+            "type": "text",
+            "required": false
+        },
+        {
+            "id": "certificateId",
+            "label": "Certificate ID",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}

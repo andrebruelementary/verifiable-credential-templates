@@ -1,0 +1,57 @@
+{
+    "id": "insurance-proof",
+    "name": "Insurance Coverage",
+    "description": "A verifiable credential confirming insurance coverage",
+    "properties": [
+        {
+            "id": "holderName",
+            "label": "Policy Holder",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "insuranceType",
+            "label": "Insurance Type",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "policyNumber",
+            "label": "Policy Number",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "insuranceProvider",
+            "label": "Insurance Provider",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "startDate",
+            "label": "Coverage Start Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "endDate",
+            "label": "Coverage End Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "coverageAmount",
+            "label": "Coverage Amount",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "policyStatus",
+            "label": "Policy Status",
+            "type": "text",
+            "required": true
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}

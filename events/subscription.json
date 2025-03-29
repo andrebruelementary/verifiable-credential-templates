@@ -1,0 +1,51 @@
+{
+    "id": "digital-subscription",
+    "name": "Digital Subscription",
+    "description": "A verifiable credential representing a subscription to a digital service",
+    "properties": [
+        {
+            "id": "subscriberName",
+            "label": "Subscriber Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "serviceName",
+            "label": "Service Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "subscriptionLevel",
+            "label": "Subscription Level",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "startDate",
+            "label": "Start Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "renewalDate",
+            "label": "Renewal Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "subscriptionId",
+            "label": "Subscription ID",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "features",
+            "label": "Features",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}

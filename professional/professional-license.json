@@ -1,0 +1,57 @@
+{
+    "id": "professional-license",
+    "name": "Professional License",
+    "description": "A verifiable credential representing a professional license or certification",
+    "properties": [
+        {
+            "id": "holderName",
+            "label": "License Holder",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "licenseType",
+            "label": "License Type",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "licenseNumber",
+            "label": "License Number",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "issuingAuthority",
+            "label": "Issuing Authority",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "issueDate",
+            "label": "Issue Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "expirationDate",
+            "label": "Expiration Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "jurisdiction",
+            "label": "Jurisdiction",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "status",
+            "label": "Status",
+            "type": "text",
+            "required": true
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}

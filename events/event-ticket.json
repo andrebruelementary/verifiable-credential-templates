@@ -1,0 +1,51 @@
+{
+    "id": "event-ticket",
+    "name": "Event Ticket",
+    "description": "A verifiable credential serving as a ticket to an event",
+    "properties": [
+        {
+            "id": "attendeeName",
+            "label": "Attendee Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "eventName",
+            "label": "Event Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "eventDate",
+            "label": "Event Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "eventLocation",
+            "label": "Event Location",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "ticketType",
+            "label": "Ticket Type",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "ticketNumber",
+            "label": "Ticket Number",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "seatInformation",
+            "label": "Seat Information",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "payment-proof",
+    "name": "Payment Verification",
+    "description": "A verifiable credential confirming a payment was made",
+    "properties": [
+        {
+            "id": "payerName",
+            "label": "Payer Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "recipientName",
+            "label": "Recipient Name",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "amount",
+            "label": "Amount",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "currency",
+            "label": "Currency",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "paymentDate",
+            "label": "Payment Date",
+            "type": "date",
+            "required": true
+        },
+        {
+            "id": "paymentMethod",
+            "label": "Payment Method",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "transactionId",
+            "label": "Transaction ID",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "description",
+            "label": "Description",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "isPublic": true,
+    "source": "identus"
+}
